@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:id="@+id/tmp"
+        android:title="Notification">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notiSetting"
+            android:title="@string/pref_title_new_message_notifications">
+        </SwitchPreference>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="notiSetting"
+            android:key="notiVibrateSetting"
+            android:title="@string/pref_title_vibrate">
+        </SwitchPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

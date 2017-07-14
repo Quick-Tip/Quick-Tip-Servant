@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="User "
+                android:textColor="#aaa"
+                android:textSize="18sp">
+            </TextView>
+            <TextView
+                android:id="@+id/tip_user"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="XXX"
+                android:textColor="#555"
+                android:textSize="18sp"
+                android:maxLines="1">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:layout_marginTop="-26dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorSubPrimary"
+                android:textSize="22sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-25dp"
+                android:text="$"
+                android:maxLines="1" />
+            <TextView
+                android:id="@+id/tip_money"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorSubPrimary"
+                android:textSize="22sp"
+                android:text="100"
+                android:maxLines="1" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/tip_score"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="3.5"
+            android:isIndicator="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tip_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:text="    balalla">
+    </TextView>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="end">
+        <TextView
+            android:id="@+id/tip_shop"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text="在XXX酒店"
+            android:maxLines="1">
+        </TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text=", "
+            android:maxLines="1">
+        </TextView>
+        <TextView
+            android:id="@+id/tip_date"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text="于2016年"
+            android:maxLines="1">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

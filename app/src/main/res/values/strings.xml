@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Quick Tip</string>
+    <string name="server">http://crcrcry.com.cn</string>
+
+    <!-- Strings related to account auth -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_again">Password Again</string>
+    <string name="prompt_new_password">New assword</string>
+    <string name="prompt_old_password">Old Password（Remain empty if not changing）</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_jump_to_sign_in">Jump To Login</string>
+    <string name="action_sign_up">Signup</string>
+    <string name="action_jump_to_sign_up">Signup</string>
+    <string name="action_jump_to_find_pwd">Forget Password?</string>
+    <string name="action_submit">Submit Changes</string>
+    <string name="error_invalid_email">Invalid</string>
+    <string name="error_invalid_password">To short</string>
+    <string name="error_incorrect_password">Password error</string>
+    <string name="error_field_required">Required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="title_activity_main">Quick Tip</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to GoTip -->
+    <string name="title_activity_bind">Bind device</string>
+    <string name="title_activity_unbind">Unbind GoTip</string>
+    <string name="prompt_remind">Pleace touch the GoTip with your phone.</string>
+    <string name="prompt_has_problem">Have problem？</string>
+    <string name="prompt_confirm_bind">Confirm binding</string>
+    <string name="prompt_bind_status">Current Binded Device List</string>
+    <string name="action_unbind">Unbind Device</string>
+    <string name="error_bind">This GoTip has been binded！</string>
+    <string name="error_unbind">This account hasn\'t bind any device.</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancle">Cancel</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Strings related to wallet page -->
+    <string name="title_wallet">My Wallet</string>
+    <string name="prompt_money">My Blance</string>
+    <string name="prompt_withdraw">Withdraw amount</string>
+    <string name="action_withdraw">Withdraw</string>
+
+    <!-- Strings related to main page -->
+    <string name="list_title_recent_tip">Recent Tips</string>
+    <string name="action_bind_gotip">Bind</string>
+    <string name="action_unbind_gotip">Unbind</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notification</string>
+
+    <string name="pref_title_new_message_notifications">Accept notification when receive tip</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_account">My Account</string>
+    <string name="title_activity_tips_history">Tips History</string>
+</resources>

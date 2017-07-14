@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quicktip.quick_tip_servant.AllTipsActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/shadow_bottom">
+
+        <TextView
+            android:id="@+id/tips_month"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:text="July, 2017"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/date_picker_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            style="?borderlessButtonStyle"
+            android:background="#fafafa"
+            android:drawableTop="@drawable/ic_event_note_black_24dp"
+            android:text="Calendar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="35dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avg. ">
+                </TextView>
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text=" 4.7">
+                </TextView>
+            </LinearLayout>
+            <RatingBar
+                android:id="@+id/average_score"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:rating="3.1"
+                android:layout_marginStart="-30dp"
+                android:isIndicator="true"/>
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorSubPrimary"
+                    android:textSize="20sp"
+                    android:text="$100">
+                </TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/tip_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
